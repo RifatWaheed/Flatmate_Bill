@@ -28,3 +28,4 @@ john = Flatmate(name='John',days_in_house=20)
 marry = Flatmate(name='Marry',days_in_house=25)
 
 print(john.pays(bill=the_bill,flatmate2=marry))
+print(marry.pays(bill=the_bill,flatmate2=john))
